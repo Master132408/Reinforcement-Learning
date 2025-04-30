@@ -3,6 +3,7 @@
 ## Project Description
 This project applies reinforcement learning (specifically a contextual bandit approach using LinUCB) to mitigate hallucinations in generative language models when answering medical questions. By dynamically selecting between models like Google's Gemini 2.0 Flash, Phi 3 Mini, and Qwen 4 based on the question and category, we aim to improve the factual consistency of outputs.
 
+
 ## Team Members
 - **Agaaz Singhal**
 - **Krishnav Mahansaria**
@@ -27,6 +28,9 @@ This project applies reinforcement learning (specifically a contextual bandit ap
 - `contextual_bandit_llm_selector.py`: Implements the LinUCB algorithm for contextual bandit training and evaluation.
 - `dataset.jsonl`: Input dataset used for training, formatted in JSON Lines.
 - `requirements.txt`: List of all required Python packages.
+- 
+## Interactive Live Demo
+Link- https://www.loom.com/share/15707f4c9ef34202814c8662784092ee?sid=3e6aa55f-bb40-4f82-a2a7-777dffbc22fc
 
 ## Dataset Format
 Each entry in `dataset.jsonl` should include:
