@@ -1,4 +1,4 @@
-# Reinforcement Learning for Hallucination Prevention
+# Reinforcement Learning for Hallucination Prevention in GenAI models for Medical Domain QA
 
 ## Project Description
 This project applies reinforcement learning (specifically a contextual bandit approach using LinUCB) to mitigate hallucinations in generative language models when answering medical questions. By dynamically selecting between models like Google's Gemini 2.0 Flash, Phi 3 Mini, and Qwen 4 based on the question and category, we aim to improve the factual consistency of outputs.
